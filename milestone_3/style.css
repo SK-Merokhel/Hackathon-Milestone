@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif; /* Modern font for readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light gray background for contrast */
+}
+
+form {
+    margin: 40px auto; /* Centered with more margin */
+    background-color: #ffffff; /* White background for form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Softer shadow for depth */
+    padding: 30px; /* More padding for a spacious feel */
+    max-width: 600px;
+    border: 1px solid #e0e0e0; /* Light border for subtle definition */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray for better contrast */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+fieldset {
+    border: 2px solid #00aaff; /* Bright blue for visibility */
+    border-radius: 10px; /* Match form rounding */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e6f7ff; /* Light blue background for fieldset */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #0077cc; /* Stronger blue for emphasis */
+}
+
+label {
+    display: block;
+    margin-top: 15px; /* Increased margin for clarity */
+    color: #333; /* Dark text color */
+    font-weight: 500; /* Slightly bolder for readability */
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    padding: 10px; /* Comfortable padding */
+    width: calc(100% - 2px); /* Full width minus border */
+    border: 1px solid #00aaff; /* Matching input border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    transition: border-color 0.3s; /* Smooth transition effect */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #0077cc; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #00aaff; /* Bright blue for visibility */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    margin-top: 15px; /* Space above button */
+    font-size: 18px;
+    font-family: 'Arial', sans-serif; /* Consistent font */
+    padding: 12px; /* Comfortable button padding */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #0077cc; /* Darker blue on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: 40px auto; /* Centered with margin */
+    padding: 20px;
+    border: 2px solid #00aaff; /* Consistent border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background for display */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Softer shadow for depth */
+}
+
+#resume-display h2 {
+    color: #333; /* Dark gray for headings */
+}
